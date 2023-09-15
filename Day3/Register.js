@@ -1,5 +1,8 @@
 import React,{useState} from 'react'
+import Link from '@mui/material/Link';
 import "./Register.css";
+import { Navigate} from 'react-router-dom';
+
 
 export default function Register() {
   const[firstname,setFirstname]=useState('');
@@ -8,6 +11,9 @@ export default function Register() {
   const[phoneno,setPhoneno]=useState('');
   const[password,setPassword]=useState('');
   const[confirmpassword,setConfirmpassword]=useState('');
+  const handleHomeButtonClick=()=>{
+    Navigate('/home');
+  }
   return (
     <div>
       <div className='img22'>
@@ -31,7 +37,7 @@ export default function Register() {
 
       <input type="Password400"  value={confirmpassword} placeholder="Confirm Password.." onChange={(e)=>setConfirmpassword(e.target.value)}/><br/><br/><br/>
        
-      <button type="submit" class="but2">REGISTER</button>
+      <Link href="/home"><button type="submit" class="but2" onClick={handleHomeButtonClick}>REGISTER</button></Link>
       
       </div>
       </div>
