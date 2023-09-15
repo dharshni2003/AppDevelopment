@@ -1,13 +1,19 @@
 import React,{useState} from 'react'
 import"./Login.css";
-//import{useNavigate}from 'react-router-dom';
+import{Link, useNavigate}from 'react-router-dom';
 export default function Login() {
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
-    //const navigate=useNavigate();
-    const formHolder=(event)=>
-    {
-      //navigate("/Register")
+    const navigate=useNavigate();
+
+    const authenticate=(e)=>{
+      if(email.length==0||password.length==0)
+      {
+        alert("Enter all fields")
+      }
+      else{
+        navigate("/home")
+      }
     }
    
   return (
@@ -24,14 +30,18 @@ export default function Login() {
       <p>LOGIN</p>
     </div>
     <div className='form1'>
-    <form onsubmit={formHolder}>
+    <form>
 <input type="text100" value={email} placeholder="e-mail" onChange={(e)=>setEmail(e.target.value)}/><br/>
     <br/>
  <input type="Password300" value={password} placeholder="Password" onChange={(e)=>setPassword(e.target.value)}/><br/>
     <br/>
-    <button type="submit" class="but">SUBMIT</button><br/>
+    <button type="submit" class="but" onClick={authenticate}>SUBMIT</button><br/>
    
-    
+    <div className='head21'>
+    <p> NOT YET REGISTERED?</p>
+    </div>
+    <div className='head3'>
+    <Link to="/signup"><p> REGISTER HERE!!</p></Link></div>
 
     
     
