@@ -26,8 +26,9 @@
     font-style: normal;
     font-family: 'inter';
     font-weight: 500;
-    left: 170px;
-    top: -570px;
+    left: 150px;
+    top: 0px;
+    text-shadow: rgb(174, 31, 31);
     
 }
 .form2
