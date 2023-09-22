@@ -1,0 +1,88 @@
+.rectangle2
+{
+    position: fixed;
+    height: 550px;
+    width: 480px;
+    left: 550px;
+    top: 0px;
+  
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.546);
+    background: rgba(0, 0, 0, 0.386);
+}
+.img22
+{
+    position: fixed;
+    
+    left: 0px;
+    top: -100px;
+    padding-right: 0%;
+    padding-top: 0px;
+}
+.head2
+{
+    position: relative;
+    font-size: 35px;
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'inter';
+    font-weight: 500;
+    left: 150px;
+    top: 0px;
+    text-shadow: rgb(174, 31, 31);
+    
+}
+.form2
+{
+    position: fixed;
+    left: 660px;
+    top: 60px;
+    font-size: 23px;
+    font-family: serif;
+}
+::placeholder
+{
+    font-size: 14px;
+    font-family: cursive;
+}
+input[type=text200]
+{
+   
+    size: 22;
+    height: 25px;
+    font-size: 25px;
+    width: 270px;
+    border-radius: 2px;
+} 
+input[type=text300]
+{
+   
+    size: 22;
+    height: 25px;
+    font-size: 25px;
+    width: 270px;
+    border-radius: 2px;
+} 
+input[type=password400]
+{
+    size: 22;
+    height: 25px;
+    width: 270px;
+    font-size: 25px;
+    border-radius: 2px;
+}
+.but2
+{
+    
+    border-radius: 2px;
+    background: #57d86895;
+    width: 150px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 39px;
+    color: #000000;
+    left: 120px;
+    
+}
