@@ -1,0 +1,482 @@
+body1 {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+  }
+  #container {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+  #main {
+    padding: 4% 1.5em;
+    max-width: 55em;
+    margin: 0 auto;
+  }
+  #header {
+    padding: 1.5em;
+    margin: 0 0 1em 0;
+    background-color: #eee;
+  }
+  #footer {
+    padding: 1.5em;
+    margin: 2em 0 0 0;
+    background-color: #eee;
+  
+  }
+  .primary-nav {
+      position: fixed;
+      z-index: 999;
+  }
+  .menu {
+      position: relative;
+  }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .open-panel {
+    border: none;
+    background-color:#fff;
+    padding: 0;
+  }
+  .hamburger {
+      background: white;
+      position: relative;
+      display: block;
+      text-align: center;
+      padding: 13px 0;
+      width: 50px;
+      height: 73px;
+      left: 0;
+      top: 0px;
+      z-index: 1000;
+    cursor: pointer;
+  }
+  .hamburger:before {
+      content:"\2630"; 
+      display: block;
+    color: #120404ea;
+    line-height: 32px;
+    font-size: 16px;
+  }
+  .openNav .hamburger:before {
+      content:"\2715"; /* close icon */
+      display: block;
+    color: #0f0303;
+    line-height: 32px;
+    font-size: 16px;
+  }
+  .hamburger:hover:before {
+    color: #140e0e58;
+  }
+  .primary-nav .menu li {
+      position: relative;
+  }
+  .menu .icon {
+      position: absolute;
+      top: 12px;
+      right: 10px;
+      pointer-events: none;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+  }
+  .menu,
+  .menu a,
+  .menu a:visited {
+    color: #aaa;
+    text-decoration: none!important;
+      position: relative;
+  }
+  .menu a {
+    display: block;
+    white-space: nowrap;
+    padding: 1em;
+    font-size: 14px;
+  }
+  .menu a:hover {
+      color: #ffffffa2;
+  }
+  .menu {
+      margin-bottom: 3em;
+  }
+  
+  .menu label {
+    margin-bottom: 0;
+    display: block;
+  }
+  .menu label:hover {
+    cursor: pointer;
+  }
+  
+  /*sidebar*/
+  .menu {
+    position: absolute;
+      display: block;
+      left: -200px;
+      top: 0;
+      width: 250px;
+    transition: all 0.45s cubic-bezier(0.77, 0, 0.175, 1);
+    background-color:rgb(33, 33, 88);
+      z-index: 999;
+      height: 95vh;
+  }
+  
+  
+  .overflow-container {
+    position: relative;
+    height: calc(100vh - 73px)!important;
+    overflow-y: auto;
+    border-top: 73px solid #ffffff;
+    
+    z-index: -1;
+    display:block;
+  }
+  .menu a.logotype {
+    position: absolute!important;
+    top: 1px;
+    left: 5px;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #0a0707c8;
+    font-size: 21px;
+    padding: 10px;
+  }
+  .menu a.logotype span {
+    font-weight: 400;
+  }
+  .menu a.logotype:hover {
+
+    color: #777;
+  }
+  
+  
+  .menu:hover {
+      position: absolute;
+      left: 0;
+      top: 0;
+  }
+  .openNav .menu:hover {
+      position: absolute;
+      left: -200px;
+      top: 73px;
+  }
+  .openNav .menu {
+    top: 73px;
+          transform: translate3d(200px, 0, 0);
+      transition: transform .45s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  @-webkit-keyframes grow {
+      
+    0% {
+      display: none;
+      opacity: 0;
+    }
+    50% {
+      display: block;
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+      
+  }
+  
+  @keyframes grow {
+      
+    0% {
+      display: none;
+      opacity: 0;
+    }
+    50% {
+      display: block;
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1
+    }
+      
+  }
+  
+  
+  .screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  body,
+  button,
+  input,
+  select,
+  optgroup,
+  textarea {
+      font-size: 1em;
+      line-height: 1.5;
+      font-weight: 300;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      clear: both;
+    font-weight: 800;
+  }
+  
+  dfn, cite, em, i {
+      font-style: italic;
+  }
+  
+  blockquote {
+      margin: 0 1.5em;
+  }
+  
+  address {
+      margin: 0 0 1.5em;
+  }
+  
+ 
+  
+  
+  
+ 
+ 
+ 
+  sup,
+  sub {
+      height: 0;
+      line-height: 1;
+      vertical-align: baseline;
+      position: relative;
+  }
+  
+  sup {
+      bottom: 1ex;
+  }
+  
+  sub {
+      top: .5ex;
+  }
+  
+  
+  p {
+      font-size: 1em;
+      margin: 0 0 2em 0;
+  }
+  
+  article:last-of-type, p:last-of-type {
+      margin-bottom: 0;
+  }
+  
+  p.intro {
+      font-size:1.25em;
+      line-height: 1.5;
+      font-weight:300;
+       margin: 0 0 1.5em 0;
+  }
+  
+  h1, h2 {
+      letter-spacing: -1px;
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium web',cursive;
+    font-size: 23px;
+}
+
+:root{
+    --mainColor: #0d0e0e4a;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+    
+}
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:40px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color:var(--textColor);
+
+}
+
+nav a{
+     
+    margin: 0 2rem;
+    color:var(--textColor);
+    text-decoration: none; 
+}
+
+nav a:hover{
+    color: var(--secondaryColor);
+}
+
+header .nav-btn
+{
+    padding: -50px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity:0;
+    font-size: 1rem;
+    font-style: italic ;
+}
+
+@media only screen and (max-width: 1024px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav{
+        position: fixed;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1%;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav
+    {
+        transform: none;
+    }
+
+    nav .nav-close-btn
+    {
+       position: absolute;
+       top: 2rem;
+       right: 2rem;
+    }
+
+    nav a{
+        font-size: 1.rem;
+    }
+}
+    
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium web',cursive;
+    font-size: 20px;
+
+}
+/*navbar*/
+:root{
+    --mainColor:rgb(33, 33, 88);
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+    
+}
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:50px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color:var(--textColor);
+
+}
+
+nav a{
+     
+    margin: 0 2rem;
+    color:var(--textColor);
+    text-decoration: none; 
+}
+
+nav a:hover{
+    color: var(--secondaryColor);
+}
+
+header .nav-btn
+{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity:0;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px){
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav{
+        position: fixed;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1%;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav
+    {
+        transform: none;
+    }
+
+    nav .nav-close-btn
+    {
+       position: absolute;
+       top: 2rem;
+       right: 2rem;
+    }
+
+    nav a{
+        font-size: 1.5rem;
+    }
+}
+  .user{
+    float:left;
+    margin-top: 2%;
+  }
+    
+  
+  
