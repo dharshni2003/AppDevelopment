@@ -1,0 +1,239 @@
+
+
+  .body6{
+    background: url("https://cdn.dribbble.com/userupload/6742658/file/original-fd40682e84f05331a3f91f8f68afed80.png?resize=1504x1128");
+    background-position:cover;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.rectangle1234{
+   position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 80px;
+    top: 700px;
+    background: rgb(70, 63, 127);
+    border-radius: 0px;
+}
+.rectangle12345{
+   position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 500px;
+    top: 700px;
+    background: rgb(70, 63, 127);
+    border-radius: 0px;
+}
+.rectangle123456{
+   position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    top: 700px;
+    background: rgb(70, 63, 127);
+    
+    border-radius: 0px;
+}
+.rectangle29{
+   position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 80px;
+    top: 1100px;
+    background: rgb(70, 63, 127);
+    border-radius: 0px;
+}
+.rectangle30{
+   position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 500px;
+    top: 1100px;
+    background: rgb(70, 63, 127);
+    border-radius: 0px;
+}
+.rectangle31{
+   position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    top: 1100px;
+    background: rgb(70, 63, 127);
+    border-radius: 0px;
+}
+.head 
+    {
+        position: relative;
+        left:30px;
+        top:10px;
+        color:white
+    }
+    .para
+    {
+        position:relative;
+        font-size:50px;
+        top:300px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #151313ef;
+    }
+    .Footer
+    {
+        position: relative;
+         background:white;
+         padding: 1rem 0;
+         margin-top: 500px;
+         top: 900px;
+         height: 300px;
+        
+    }
+     .ft-1 h3{
+        
+        position: relative;
+        font-weight: 700;
+        font-family:cursive; 
+        letter-spacing: 2px;
+        left:500px;
+        top:50px;
+    
+     }
+     .ft-1 span{
+        position: relative;
+        color: rgb(70, 63, 127);
+        font-size: 27px;
+        left:350px;
+        top:100px;
+    
+     }
+     .ft-1 h3{
+      position: relative;
+        color: #f6f0f0;
+        font-size: 30px;
+        left:400px;
+    
+     }
+     .ft-1 p{
+        position: relative;
+        padding: 0rem 5rem 0.8rem 0;
+        font-weight: 500;
+        right:700px;
+        font-size: 28px;
+        color: white;
+     }
+     .footer-icons i
+     {
+         padding: 0.4rem 0.5rem;
+         background: #e1e1e1;
+         color: #0c0c0cf1;
+         margin: 0 0.5rem ;
+         border-radius:50%;
+         right:800px;
+         position: relative;
+
+     }
+     .footer-icons i:hover
+     {
+         background: #f6083881 ;
+         color: #fff;
+         transition: 0.6s;
+         cursor: pointer;   
+     }
+     /*quick links*/
+     .Footer h5{
+        color:   rgb(70, 63, 127);
+        position: relative;
+        font-size: 20px;
+        top:-90px;
+        left:10px;
+     }
+     .ft-2 ul{
+        list-style: none;
+        padding-left: 0;
+        color: white;     
+        
+     }
+     .ft-2 ul li{
+        padding: 0.35rem 0;
+        font-weight: 500;
+        position: relative;
+        top:100px; 
+        color: white;       
+        
+     }
+     .ft-2 ul a{
+      position: relative;
+        text-decoration: none;
+        color: black;
+        font-size: 15px ;
+        top:-190px;
+        left:10px;
+    
+     }/*contact info*/
+     .Footer h4{
+        color:  rgb(70, 63, 127);
+        position: relative;
+        font-size: 20px;
+        top:-290px;
+        left:400px;
+
+     }
+     .ft-3  p{
+        color:black;     
+        font-weight: 500;
+        padding-right: 0.1rem 0;
+        font-size: 15px ;
+        position: relative;
+        left:400px;
+        top:-280px;
+    
+     }
+     
+     .ft-3 i{
+        padding-right: 0.5rem;
+    
+     }
+    
+     .Last-footer {
+        background:rgba(255, 255, 255, 0.756);
+        text-align: center;
+        padding: 1rem 0;
+        position: relative;
+        margin-top: -200px;
+     }
+     .Last-footer p{
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: black;
+     }
+.content_2
+{
+    position: absolute;
+    top:1500px;
+}
+.footer-icons i
+     {
+         padding: 0.4rem 0.5rem;
+         background: skyblue;
+         color: #0c0c0c;
+         margin: 0 0.5rem ;
+         border-radius:50%;
+         right:400px;
+         top:100px;
+         position: relative;
+     }
+     .footer-icons i:hover
+     {
+         background: #f60838 ;
+         color: #fff;
+         transition: 0.6s;
+         cursor: pointer;
+     }
+     .dhivya92
+     {
+      position:relative;
+      left:-50px;
+      top:-410px;
+      color: black;
+     }
+     
